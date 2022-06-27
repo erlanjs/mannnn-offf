@@ -18,7 +18,7 @@ const Header = () => (
               <a href="#" className="text-white mx-5 text-[15px] no-underline">О компании</a>
               <a href="#" className="text-white mx-5 text-[15px] no-underline">Products</a>
               <a href="#" className="text-white mx-5 text-[15px] no-underline">Наша команда</a>
-              <a href="#" className="text-white mx-5 text-[15px] no-underline">Контакты</a>
+              <a href="#" className="text-white mx-5 text-[15px] no-underline">Contacts</a>
           </div>
       </div>
 

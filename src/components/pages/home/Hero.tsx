@@ -4,8 +4,6 @@ import {media} from "../../media";
 
 const Hero = () => {
 
-
-
     return (
         <div className="bg-[#FFFFFF]  min-h-[100vh]">
             <div className="bg-[#1F1F1F] w-full h-[280px]">
