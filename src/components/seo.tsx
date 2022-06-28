@@ -35,7 +35,6 @@ function Seo({ description, lang, meta, title }:any) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s / ${defaultTitle}` : null}
       meta={[
         {
           name: `description`,
@@ -75,7 +74,7 @@ function Seo({ description, lang, meta, title }:any) {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `ru`,
   meta: [],
   description: ``,
 }
