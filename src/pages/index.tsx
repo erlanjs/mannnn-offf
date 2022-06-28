@@ -9,6 +9,8 @@ import AllCommand from "../components/pages/home/allComand";
 
 
 
+import Gallery from "../components/pages/home/Gallery";
+import Contact from "../components/pages/home/Contact";
 
 
 const IndexPage = () => (
@@ -16,8 +18,12 @@ const IndexPage = () => (
     <Seo title="Mancho Devs" />
       {/*<Hero/>*/}
       {/*<About/>*/}
-      <Products/>
+    <About/>
+    <Products/>
       <AllCommand/>
+      {/*<Hero/>*/}
+      <Gallery/>
+      <Contact/>
   </Layout>
 )
 
