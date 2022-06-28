@@ -17,7 +17,6 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Mancho Devs" />
       {/*<Hero/>*/}
-      {/*<About/>*/}
     <About/>
     <Products/>
       <AllCommand/>
