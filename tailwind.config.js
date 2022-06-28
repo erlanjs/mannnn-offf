@@ -5,20 +5,26 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        lg: "4rem",
+        xl: "5rem",
+        "2xl": "6rem",
+      },
+    },
     screens: {
-      'phoneMin': '400px',
 
-      'phoneMax': '550px',
-
-      'tablet': '640px',
+      sm: "300px",
+      md: "640px",
       // => @media (min-width: 640px) { ... }
+      lg:"992px",
 
-      'laptop': '1024px',
+      xl: "1024px",
       // => @media (min-width: 1024px) { ... }
-
-      'desktop': '1280px',
+      xxl: "1280px",
       // => @media (min-width: 1280px) { ... }
     },
-  },
-  plugins: [],
+  },  plugins: [],
 }

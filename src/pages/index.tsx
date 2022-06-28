@@ -3,10 +3,8 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/pages/home/Hero";
 import About from "../components/pages/home/About";
-
-
-
-
+import Gallery from "../components/pages/home/Gallery";
+import Contact from "../components/pages/home/Contact";
 
 
 const IndexPage = () => (
@@ -14,6 +12,8 @@ const IndexPage = () => (
     <Seo title="Home" />
       <Hero/>
       <About/>
+      <Gallery/>
+      <Contact/>
   </Layout>
 )
 
