@@ -6,6 +6,7 @@ import Command from "../components/pages/about-company/command";
 import Contact from "../components/pages/home/Contact";
 import Products from "../components/pages/home/Products";
 import About from "../components/pages/home/About";
+import FounderSeo from "../components/pages/about-company/founder-seo";
 
 
 const SecondPage = () => (
@@ -16,6 +17,7 @@ const SecondPage = () => (
       <Command/>
       <About/>
       <Products/>
+      {/*<FounderSeo/>*/}
       <Contact/>
     </Layout>
   </>

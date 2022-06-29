@@ -5,7 +5,7 @@ const About = (): JSX.Element => {
 
   return (
     <section>
-      <div className="container mx-auto w-[90%]">
+      <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex text-[100px] font-[700] font-sans text-black sm:text-4xl sm:w-[100%] md:text-6xl lg:w-[70%] lg:text-7xl ">О компан<div className="bg-black h-[5rem] text-white sm:h-[3rem] md:h-[5rem] ">ии</div>
           </div>

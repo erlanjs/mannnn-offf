@@ -8,7 +8,7 @@ const Products = (): JSX.Element => {
 
     return (
         <section>
-            <div className="container mx-auto w-full pt-[500px] ">
+            <div className="container mx-auto w-full pt-[100px] ">
                <div className="flex justify-between items-center">
                    <h1 className="text-5xl font-bold text-black lg:text-9xl xl:text-8xl md:text-7xl">Product<span className="text-white bg-black pr-8">s</span></h1>
                    <h1 className="font-semibold hidden text-3xl lg:block">What are <span className="text-white py-3 bg-black py-10">we creating?</span></h1>
