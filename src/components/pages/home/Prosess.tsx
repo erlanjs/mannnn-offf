@@ -8,21 +8,23 @@ const Prosess = (): JSX.Element => {
 
   return (
     <section>
-      <div className="bg-[#212121] pt-12 pb-5">
+      <div className="bg-[#1F1F1F] pt-24 pb-1 lg:pb-5">
         <div className="container mx-auto w-full  ">
-          <div className="text-end">
+          <div className="text-end hidden xl:block">
             <h4 className="text-3xl	text-white font-semibold">How we are working?</h4>
           </div>
           <div className="">
-            <h1 className="text-8xl	text-white font-bold">Процесс создания</h1>
-            <p className="text-3xl text-white font-normal max-w-[800px]">Для достижения своих целей мы используем передовые технологии и методологии. В нашем арсенале:</p>
+            <h1 className="text-8xl	text-white font-bold lg:text-7xl md:text-6xl sm:text-4xl">Процесс создания</h1>
+            <p className="text-3xl text-white font-normal max-w-[800px] hidden md:block">Для достижения своих целей мы используем передовые технологии и методологии. В нашем арсенале:</p>
           </div>
 
         </div>
       </div>
       <div style={{background: `url(${bg}) no-repeat center`}} className="py-8">
         <div className="container mx-auto w-full  " >
-            <div className="flex flex-wrap justify-center xl:justify-between">
+          <p className="text-lg text-black font-semibold md:text-2xl md:hidden">Мы используем передовые технологии и методологии. В нашем арсенале:</p>
+
+          <div className="flex flex-wrap justify-center xxl:justify-between">
               <div className=" max-w-[500px] py-5">
                 <div className="flex items-center">
                   <div className="w-5 h-9 border-2 border-black mr-5"/>
