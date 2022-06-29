@@ -1,5 +1,4 @@
 import React from 'react';
-import {StaticImage} from "gatsby-plugin-image";
 
 // @ts-ignore
 import bg from "../../../images/products-bg.png"
@@ -8,7 +7,7 @@ const Products = (): JSX.Element => {
 
 
     return (
-        <div>
+        <section>
             <div className="container mx-auto w-full pt-[500px] ">
                <div className="flex justify-between items-center">
                    <h1 className="text-5xl font-bold text-black lg:text-9xl xl:text-8xl md:text-7xl">Product<span className="text-white bg-black pr-8">s</span></h1>
@@ -55,7 +54,7 @@ const Products = (): JSX.Element => {
                 </div>
 
             </div>
-        </div>
+        </section>
     );
 };
 

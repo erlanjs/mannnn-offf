@@ -1,23 +1,24 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import Hero from "../components/pages/home/Hero";
 import About from "../components/pages/home/About";
 import Products from "../components/pages/home/Products";
 import AllCommand from "../components/pages/home/allComand";
 import Gallery from "../components/pages/home/Gallery";
 import Contact from "../components/pages/home/Contact";
-import {BrowserRouter} from "react-router-dom";
+import Header from "../components/header";
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Mancho Devs" />
-    {/*<Hero/>*/}
+    <Header/>
+    <Hero/>
     <About/>
     <Products/>
     <AllCommand/>
     <Gallery/>
     <Contact/>
-
   </Layout>
 );
 

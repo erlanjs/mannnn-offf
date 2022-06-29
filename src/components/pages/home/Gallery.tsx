@@ -1,5 +1,6 @@
 import React from "react";
 import {StaticImage} from  "gatsby-plugin-image"
+import {Link} from "gatsby";
 
 const Gallery = () => {
   return (
@@ -26,7 +27,9 @@ const Gallery = () => {
             <h1 className="font-[900] text-black text-2xl pt-20 sm:text-white md:text-white lg:text-black xl:text-black xxl:text-black">Присоединяйся к команде Mancho Devs!</h1>
             <p className="font-[300] text-[#1F1F1F] text-[15px] sm:text-white md:text-white lg:text-black xl:text-[#1F1F1F] xxl:text-[#1F1F1F]">Мы всегда в поисках талантливых людей, готовых работать над сложными и интересными задачами вместе с нами</p>
             <div>
-              <button className="bg-black px-8 py-3 rounded text-white font-[700] text-[12px] sm:bg-white sm:text-black md:bg-white md:text-black lg:bg-black lg:text-white xl:bg-black xl:text-white xxl:bg-black xxl:bg-black">Присоединяйся к нам!</button>
+              <Link to={'/about-company'}>
+                <button className="bg-black px-8 py-3 rounded text-white font-[700] text-[12px] sm:bg-white sm:text-black md:bg-white md:text-black lg:bg-black lg:text-white xl:bg-black xl:text-white xxl:bg-black xxl:bg-black">Присоединяйся к нам!</button>
+              </Link>
               <span></span>
             </div>
           </div>
