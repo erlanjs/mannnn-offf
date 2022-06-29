@@ -4,7 +4,7 @@ import {StaticImage} from  "gatsby-plugin-image"
 const Gallery = () => {
   return (
     <section className="my-12 py-10 bg-white sm:bg-[#1F1F1F] sm:py-[1px] md:bg-[#1F1F1F] md:py-1 lg:bg-white lg:py-2 xl:bg-white xl:py2  xxl:bg-white xxl:py-5">
-      <div className="bg-[#1F1F1F] pt-5 pb-40 sm:pt-1 md:pt-2 lg:pt-3 xl:pt-4 xxl:pt-5 ">
+      <div className="bg-[#1F1F1F] pt-5 pb-40 sm:pt-1 md:pt-1 lg:pt-3 xl:pt-4 xxl:pt-5 ">
       <div className="flex items-end justify-between  container mx-auto">
         <div className="flex text-[100px] font-[700] font-sans text-white sm:text-4xl sm:w-[100%] md:text-6xl  lg:w-[70%] lg:text-7xl ">Галер
           <div className="bg-black h-[5rem] text-white sm:h-[3rem] md:h-[5rem] bg-white h-[120px] text-[#1F1F1F]">ея</div>
@@ -12,7 +12,7 @@ const Gallery = () => {
         <a className="font-[600] text-3xl text-white sm:hidden md:hidden lg:block xl:block xxl:block">see all photos</a>
       </div>
     </div>
-      <div className="container mx-auto ">
+      <div className="container mx-auto">
         <div className="flex justify-between h-full mt-[-140px] sm:flex sm:flex-col md:flex md:flex-col lg:flex lg:flex-row ">
           <div className="px-2.5 w-full">
             <StaticImage
