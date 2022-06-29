@@ -8,6 +8,7 @@ import AllCommand from "../components/pages/home/allComand";
 import Gallery from "../components/pages/home/Gallery";
 import Contact from "../components/pages/home/Contact";
 import Header from "../components/header";
+import Prosess from "../components/pages/home/Prosess";
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <About/>
     <Products/>
     <AllCommand/>
+      <Prosess/>
     <Gallery/>
     <Contact/>
   </Layout>
