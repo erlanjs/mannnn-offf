@@ -56,11 +56,7 @@ const AllCommand = (): JSX.Element => {
                                             <h3 className="font-bold text-xl text-white mt-5 ">{name}</h3>
                                             <h4 className="font-normal text-xs text-white mt-5">{role}</h4>
                                         </div>
-                                        <div className="w-64 h-64 bg-red-100 relative">
-                                            <div className="absolute inset-0 bg-cover bg-center z-0" style={{backgroundImage: "url('https://upload.wikimedia.org/wikipedia/en/3/3c/JumanjiTheNextLevelTeaserPoster.jpg')"}}/>
-                                            <div
-                                                className="opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex pr-5 justify-end items-start text-1xl text-white font-semibold">Dwayne</div>
-                                        </div>
+
 
 
                                     </>
